@@ -86,9 +86,9 @@ app.delete('/users/:userId', async (req, res) => {
     res.sendStatus(204);
 });
 
-app.get('/welcome', (req, res) => {
-    res.send('WELCOME');
-});
+// app.get('/welcome', (req, res) => {
+//     res.send('WELCOME');
+// });
 
 const PORT = 5100;
 
